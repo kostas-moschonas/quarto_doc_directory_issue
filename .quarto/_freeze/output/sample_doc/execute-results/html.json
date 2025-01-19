@@ -1,8 +1,8 @@
 {
-  "hash": "58162a68395e4dc319733d5282cd7690",
+  "hash": "2d70aabe3ffed37584dd8f41f66ba407",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"sample document\"\nformat: html\n# knitr:\n  # root.dir: \"C/Users/kmosc/OneDrive/Documents/CARDIOLOGY_/PhD/Playing_with_R\"\neditor: visual\n---\n\n\n\nI want to source the script `calculations.R` and use the stored variable (in this case `mean_var1` in the document, without copy pasting the code of that script.\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\ngetwd()\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] \"C:/Users/kmosc/OneDrive/Documents/CARDIOLOGY_/PhD/Playing_with_R/quarto_experiments\"\n```\n\n\n:::\n:::\n\n\n\n\n\nThe mean of variable 1 is 105\n",
+    "markdown": "---\ntitle: \"sample document\"\nformat: html\n# knitr:\n  # root.dir: \"C/Users/kmosc/OneDrive/Documents/CARDIOLOGY_/PhD/Playing_with_R\"\neditor: visual\n---\n\n\n\nThis is a quarto document within an R project, I did not create a quarto project.\n\nI want to source the script `calculations.R` and use the stored variable (in this case `mean_var1` in the document, without copy pasting the code of that script.\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\ngetwd()\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] \"C:/Users/kmosc/OneDrive/Documents/CARDIOLOGY_/PhD/Playing_with_R/quarto_doc_directory_issue\"\n```\n\n\n:::\n:::\n\n\n\n\n\nThe mean of variable 1 is 105\n",
     "supporting": [
       "sample_doc_files"
     ],
