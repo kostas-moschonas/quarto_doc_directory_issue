@@ -8,7 +8,7 @@ editor: visual
 
 This is a quarto document within an R project, I did not create a quarto project.
 
-I want to source the script `calculations.R` and use the stored variable (in this case `mean_var1` in the document, without copy pasting the code of that script.
+I want to source the script `calculations.R` and use the stored variable (in this case `mean_var1`) in the document, without copy pasting the code of that script.
 
 ```{r}
 
@@ -21,3 +21,5 @@ source("R/calculations_script.R")
 ```
 
 The mean of variable 1 is `r mean_var1`
+
+Try rendering the document with and without the `_quarto.yml` file in the root directory.
