@@ -1,0 +1,13 @@
+{
+    "sortOrder": [
+        {
+            "columnIndex": 2,
+            "ascending": true
+        },
+        {
+            "columnIndex": 4,
+            "ascending": true
+        }
+    ],
+    "path": "~/CARDIOLOGY_/PhD/Playing_with_R/quarto_experiments/output"
+}

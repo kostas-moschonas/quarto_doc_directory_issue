@@ -1,0 +1,22 @@
+---
+title: "sample document"
+format: html
+# knitr:
+  # root.dir: "C/Users/kmosc/OneDrive/Documents/CARDIOLOGY_/PhD/Playing_with_R"
+editor: visual
+---
+
+I want to source the script `calculations.R` and use the stored variable (in this case `mean_var1` in the document, without copy pasting the code of that script.
+
+```{r}
+
+getwd()
+
+```
+
+```{r}
+#| include: false
+source("R/calculations_script.R")
+```
+
+The mean of variable 1 is `r mean_var1`
