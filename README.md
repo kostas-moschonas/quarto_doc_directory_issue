@@ -4,7 +4,7 @@ Quarto documents, by default, set the working directory to the folder they are i
 
 You can easily `source()` scripts with calculations, figures, or anything else instead of copy pasting the code. HOWEVER, when you render your document, the different working directory may prevent those scripts from running. 
 
-In a Quarto **project**, a separate .yml file appears in your root directory, in which you can specify the directory from which to render all your documents. 
+In a Quarto **project**, a separate .yml file appears in your root directory where you can specify the directory from which to render all your documents. 
 
 You can manually create such a .yml file even if you are working on individual .qmd files without a a quarto project per se. Create a new text file and paste:
 
